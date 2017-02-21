@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/main.css" >
+  <title>Relaxation zone</title>
+</head>
+<body>
+  <div id="flex-container">
+    <video id="vidPlayer" controls>
+      <source id="vidSource" src="file:///home/chinaza/Videos/macpro.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <button class="fab" id="fileSel">
+      <span style="font-size:30px">+</span>
+    </button>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+
+  <script>
+  // You can also require other files to run in this process
+  require('./renderer.js')
+  </script>
+  </html>
