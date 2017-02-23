@@ -1,0 +1,26 @@
+{
+  "name": "travel-companion-player",
+  "version": "1.0.0",
+  "description": "Video player for travel companion",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Travelling",
+    "Companion",
+    "smart",
+    "travel",
+    "bag"
+  ],
+  "author": "Chinaza Egbo",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}
